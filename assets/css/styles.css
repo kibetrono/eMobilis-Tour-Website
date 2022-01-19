@@ -29,7 +29,7 @@ align-items: center;
 }
 .top_right button{
 
-    margin-left: 10px;
+    margin-right: 10px;
     border: unset;
     background-color: transparent;
     color: #ffffff;
@@ -49,17 +49,21 @@ width: 50%;
 }
 .middle_right h1{
     color: #ffffff;
+    letter-spacing: 2px;
+
 }
 
 .middle_right form{
     width: 70%;
-    height: 50vh;
+    height: auto;
     background-color: #ffffff;
     display: flex;
+    padding: 50px 0px 50px 0px;
 }
 label{
     color: #000000;
     margin-left: 5%;
+    font-size: 25px;
 }
 .inputFields{
     height: 25px;
@@ -77,3 +81,11 @@ border-radius: 10px;
 margin-left: 5%;
 cursor: pointer;
 }
+
+.input_left{
+    width: 50%;
+}
+.input_right{
+    width: 50%;
+}
+
