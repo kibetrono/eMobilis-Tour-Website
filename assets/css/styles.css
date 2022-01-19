@@ -5,6 +5,7 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/assets/images/palm-trees-g71dc65ac0_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
 }
 .top{
     display: flex;
@@ -35,4 +36,44 @@ align-items: center;
     font-weight: bold;
     cursor: pointer;
     font-size: 20px;
+}
+.middle{
+    display: flex;
+}
+.middle_left{
+width: 50%;
+}
+.middle_right{
+    width: 50%;
+    
+}
+.middle_right h1{
+    color: #ffffff;
+}
+
+.middle_right form{
+    width: 70%;
+    height: 50vh;
+    background-color: #ffffff;
+    display: flex;
+}
+label{
+    color: #000000;
+    margin-left: 5%;
+}
+.inputFields{
+    height: 25px;
+    width: 90%;
+    margin-left: 5%;
+}
+#btn{
+background-color: #63c54b;
+width:110px;
+color: #ffffff;
+padding: 10px;
+height:30;
+border: unset;
+border-radius: 10px;
+margin-left: 5%;
+cursor: pointer;
 }
